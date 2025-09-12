@@ -56,6 +56,7 @@ class IfPlatform(dotbot.Plugin):
         'netbsd',       # NetBSD
         'freebsd',      # FreeBSD
         'midnightbsd',  # MidnightBSD
+        'alpine',       # Alpine Linux             
     ]
 
     def __init__(self, context):
